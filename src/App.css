@@ -127,3 +127,18 @@ button {
 button:hover {
   background-color: #04425f;
 }
+
+
+
+
+
+/* showmore button */
+.showbtn{
+  outline:none;
+  border:none;
+  background-color: black;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 40px 3px;
+
+}
