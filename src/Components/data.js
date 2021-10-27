@@ -68,6 +68,40 @@ let meals = [
     strCreativeCommonsConfirmed: null,
     dateModified: null,
   },
+  {
+    idMeal: "53050",
+    strMeal: "Biryani",
+    strDrinkAlternate: null,
+    strCategory: "Chicken",
+    strArea: "Malaysian",
+
+    strMealThumb:
+      "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+    strTags: null,
+    strYoutube: "https://www.youtube.com/watch?v=9ytR28QK6I8",
+
+    strSource: "http://www.curiousnut.com/roasted-spiced-chicken-ayam-percik/",
+    strImageSource: null,
+    strCreativeCommonsConfirmed: null,
+    dateModified: null,
+  },
+  {
+    idMeal: "53050",
+    strMeal: "Murg Masala",
+    strDrinkAlternate: null,
+    strCategory: "Chicken",
+    strArea: "Malaysian",
+
+    strMealThumb:
+      "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+    strTags: null,
+    strYoutube: "https://www.youtube.com/watch?v=9ytR28QK6I8",
+
+    strSource: "http://www.curiousnut.com/roasted-spiced-chicken-ayam-percik/",
+    strImageSource: null,
+    strCreativeCommonsConfirmed: null,
+    dateModified: null,
+  }
 ];
 
 export default meals;
