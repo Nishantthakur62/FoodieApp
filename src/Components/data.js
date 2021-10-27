@@ -15,6 +15,7 @@ let meals = [
     strImageSource: null,
     strCreativeCommonsConfirmed: null,
     dateModified: null,
+    price:Math.floor((Math.random()+1)*100)
   },
   {
     idMeal: "52893",
@@ -33,6 +34,7 @@ let meals = [
     strImageSource: null,
     strCreativeCommonsConfirmed: null,
     dateModified: null,
+    price:Math.floor((Math.random()+1)*100)
   },
   {
     idMeal: "53049",
@@ -50,6 +52,7 @@ let meals = [
     strImageSource: null,
     strCreativeCommonsConfirmed: null,
     dateModified: null,
+    price:Math.floor((Math.random()+1)*100)
   },
   {
     idMeal: "53050",
@@ -67,6 +70,7 @@ let meals = [
     strImageSource: null,
     strCreativeCommonsConfirmed: null,
     dateModified: null,
+    price:Math.floor((Math.random()+1)*100)
   },
   {
     idMeal: "53050",
@@ -84,6 +88,7 @@ let meals = [
     strImageSource: null,
     strCreativeCommonsConfirmed: null,
     dateModified: null,
+    price:Math.floor((Math.random()+1)*100)
   },
   {
     idMeal: "53050",
@@ -101,6 +106,7 @@ let meals = [
     strImageSource: null,
     strCreativeCommonsConfirmed: null,
     dateModified: null,
+    price:Math.floor((Math.random()+1)*100)
   }
 ];
 

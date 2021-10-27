@@ -1,13 +1,21 @@
 import React from "react";
 import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import noodles from "../images/noodles.jpeg";
+import data from "./data";
 
-const FoodCard = ({ mealname, id, category, area, tags }) => {
+const FoodCard = ({ mealname, id, category, area, tags,setFavFoodList,favFoodList,price}) => {
+  const handleFavourite=(e)=>{
+     
+      let foundmeal=data.find((item)=>item.idMeal===id)
+      setFavFoodList([...favFoodList,  foundmeal])
+  }
+ 
+  
   return (
     <div className="card">
       <div className="top">
         <p className="mealname">{mealname}</p>
-        <span className="heart">
+        <span className="heart" onClick={handleFavourite}>
           <AiFillHeart />
         </span>
       </div>
@@ -20,6 +28,7 @@ const FoodCard = ({ mealname, id, category, area, tags }) => {
           </div>
           <div className="foodtag">
             <span>{tags}</span>
+            
           </div>
         </div>
       </div>
@@ -28,6 +37,9 @@ const FoodCard = ({ mealname, id, category, area, tags }) => {
           <p>Add To Cart</p>
           <AiOutlineShoppingCart />
         </button>
+        <div className="price">
+        ₹{price}
+        </div>
       </div>
     </div>
   );
