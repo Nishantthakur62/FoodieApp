@@ -15,7 +15,8 @@ let meals = [
     strImageSource: null,
     strCreativeCommonsConfirmed: null,
     dateModified: null,
-    price:Math.floor((Math.random()+1)*100)
+    price:Math.floor((Math.random()+1)*100),
+    fav:false,
   },
   {
     idMeal: "52893",
@@ -35,6 +36,7 @@ let meals = [
     strCreativeCommonsConfirmed: null,
     dateModified: null,
     price:Math.floor((Math.random()+1)*100)
+    ,fav:false
   },
   {
     idMeal: "53049",
@@ -53,9 +55,10 @@ let meals = [
     strCreativeCommonsConfirmed: null,
     dateModified: null,
     price:Math.floor((Math.random()+1)*100)
+    ,fav:false
   },
   {
-    idMeal: "53050",
+    idMeal: "550",
     strMeal: "Ayam Percik",
     strDrinkAlternate: null,
     strCategory: "Chicken",
@@ -71,9 +74,10 @@ let meals = [
     strCreativeCommonsConfirmed: null,
     dateModified: null,
     price:Math.floor((Math.random()+1)*100)
-  },
+    ,fav:false
+    },
   {
-    idMeal: "53050",
+    idMeal: "5300",
     strMeal: "Biryani",
     strDrinkAlternate: null,
     strCategory: "Chicken",
@@ -89,9 +93,10 @@ let meals = [
     strCreativeCommonsConfirmed: null,
     dateModified: null,
     price:Math.floor((Math.random()+1)*100)
+    ,fav:false
   },
   {
-    idMeal: "53050",
+    idMeal: "5350",
     strMeal: "Murg Masala",
     strDrinkAlternate: null,
     strCategory: "Chicken",
@@ -107,6 +112,7 @@ let meals = [
     strCreativeCommonsConfirmed: null,
     dateModified: null,
     price:Math.floor((Math.random()+1)*100)
+  ,fav:false
   }
 ];
 

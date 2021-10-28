@@ -10,7 +10,7 @@
   
 }
 body{
-  background-color: #f0f0e7;
+  background-color:#99d98c59;
   
 }
 .navbar {
@@ -35,7 +35,7 @@ body{
 
 .card {
   width: 700px;
-  height: 300px;
+  height: 320px;
   background: rgb(228, 255, 0);
   background: linear-gradient(
     90deg,
@@ -52,11 +52,13 @@ body{
 .heart {
   color: white;
 }
+
 .heart:hover {
-  color: #f2003c;
   cursor: pointer;
 }
-
+.red{
+  color:rgb(238, 59, 59);
+}
 .top {
   display: flex;
   justify-content: space-between;
@@ -128,19 +130,21 @@ body{
 
 button {
   display: flex;
+  align-items: center;
   padding: 8px 10px;
   width: 120px;
   justify-content: space-between;
   border: none;
   border-radius: 4px;
-  background-color: black;
-  color: white;
+  background-color:white;
+  color: rgb(43, 43, 43);
   cursor: pointer;
   font-size: 14px;
 }
 
 button:hover {
-  background-color: #04425f;
+  background-color:green;
+  color: white;
 }
 
 
@@ -151,7 +155,7 @@ button:hover {
 .showbtn{
   outline:none;
   border:none;
-  background-color: black;
+  background-color:white;
   padding:15px;
   font-size: 15px;
   
