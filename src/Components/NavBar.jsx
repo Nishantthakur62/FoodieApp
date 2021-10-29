@@ -3,7 +3,7 @@ import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import logo from "../images/logo.png";
 import data from './data'
 
-const NavBar = ({favFoodList,toggle,setToggle,setItems}) => {
+const NavBar = ({favFoodList,toggle,setToggle,setItems,onOpenModal}) => {
   const displayFav=()=>{
   setToggle(!toggle);
   document.querySelector(".NavHeart").classList.toggle("red")
@@ -27,7 +27,8 @@ const NavBar = ({favFoodList,toggle,setToggle,setItems}) => {
         <span className="NavHeart"><AiOutlineHeart 
          onClick={displayFav}
         /></span>
-        <AiOutlineShoppingCart />
+
+        <AiOutlineShoppingCart onClick={()=>onOpenModal()} />
       </div>
     </nav>
   );

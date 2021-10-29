@@ -162,4 +162,46 @@ button:hover {
   margin: 15px auto; 
   width:150px
 }
+.paymentcontainer{
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+  position: relative;
+}
+.paymentHeading{
+  text-align: center;
+  margin: 10px 0;
+  border-bottom: 1px solid rgb(131, 71, 71);
+}
+.closebtn{
+  position: absolute;
+  right:5px;
+  top:10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.prices{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  position: relative;
+}
 
+ .paymentbtn{
+  outline: none;
+  border:none;
+  width:100%;
+  background-color: orange;
+  text-align: center !important;
+  
+  padding: 15px auto;
+  font-size: 17px;
+  border-radius: 7px;
+}
+.couponform{
+  position: absolute;
+  right:0;
+  top:30px;
+  z-index: 1;
+
+}
