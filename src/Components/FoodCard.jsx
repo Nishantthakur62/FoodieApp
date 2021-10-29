@@ -4,7 +4,7 @@ import { useState } from "react/cjs/react.development";
 import noodles from "../images/noodles.jpeg";
 import data from "./data";
 
-const FoodCard = ({ fav,mealname, id, category, area, tags,setFavFoodList,favFoodList,price,toggle}) => {
+const FoodCard = ({ fav,mealname, id, category, area, tags,setFavFoodList,favFoodList,price,toggle,addtoCart}) => {
   
   const handleFavourite=(e)=>{
     
@@ -30,6 +30,9 @@ const FoodCard = ({ fav,mealname, id, category, area, tags,setFavFoodList,favFoo
           setFavFoodList([...favFoodList]);  
         }    
       }
+    }
+    const HandleCart=(e)=>{
+      
     }
     // console.log(favFoodList)
  
@@ -58,7 +61,7 @@ const FoodCard = ({ fav,mealname, id, category, area, tags,setFavFoodList,favFoo
         </div>
       </div>
       <div className="bottom">
-        <button>
+        <button onClick={()=>addtoCart({id:id,name:mealname,price:price})}>
           <p>Add To Cart</p>
           <AiOutlineShoppingCart />
         </button>
